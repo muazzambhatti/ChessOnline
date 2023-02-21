@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(221 214 214);
+    font-family: sans-serif;
+
+}
+#heading {
+    color: brown;
+    text-decoration: none;
+}
+#container {
+    display: flex;
+    /* justify-content: space-between; */
+    border: 2px solid black;
+}
+
+#ruleset {
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 10px;
+    border-right: 2px solid black;
+    height: 90vh;
+    width: 25%;
+    text-align: left;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+li {
+    line-height: 1.5rem;
+    margin: 15px;
+    padding: 5px;
+    background-color: #f8d6a9;
+}
+
+li>a {
+    color: rgb(60, 60, 60);
+}
+
+li>a:hover {
+    cursor: pointer;
+    color: darkgrey;
+}
+
+li>a:active {
+    color: darkslategrey;
+}
+
+#chessboardlayout {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(225, 0, 0); */
+}
+
+#chessboard {
+    box-sizing: border-box;
+    /* display: flex; */
+    font-size: 0px;
+    width: 550px;
+    height: 550px;
+    border: solid black 1px;
+}
+
+.white-tile {
+    box-sizing: border-box;
+    width: 12.5%;
+    height: 12.5%;
+    /* border: 1px solid rgb(250, 76, 105); */
+    display: inline-block;
+    background-image: url("whitegoldmarble.jpg");
+    background-size: contain;
+}
+
+.blue-tile {
+    box-sizing: border-box;
+    width: 12.5%;
+    height: 12.5%;
+    /* border: 1px solid rgb(250, 76, 105); */
+    display: inline-block;
+    background-image: url("bluemarble.png");
+    background-size: contain;
+}
