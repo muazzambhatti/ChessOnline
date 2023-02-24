@@ -100,7 +100,7 @@ li>a:active {
     height: 100%;
 }
 
-@media screen and (max-width:300px){
+@media screen and (max-width:420px){
     #heading {
         text-align: center;
     }
